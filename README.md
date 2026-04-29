@@ -81,7 +81,7 @@ node index.js
 
 Deploys the main interface:
 
-https://i.postimg.cc/sx0c2w7H/image.png
+[![image.png](https://i.postimg.cc/sx0c2w7H/image.png)](https://postimg.cc/9wZT8Pxy)
 
 ---
 
@@ -89,7 +89,7 @@ https://i.postimg.cc/sx0c2w7H/image.png
 
 After clicking the button, paste your link:
 
-https://i.postimg.cc/sx0c2w7H/image.png
+[![image.png](https://i.postimg.cc/HsqwPJ2n/image.png)](https://postimg.cc/crctvLPG)
 
 ---
 
@@ -108,7 +108,7 @@ Set the channel where videos will be sent.
 
 Example result:
 
-https://i.postimg.cc/K855kGP7/image.png
+[![image.png](https://i.postimg.cc/K855kGP7/image.png)](https://postimg.cc/K1RTCys4)
 
 ---
 
