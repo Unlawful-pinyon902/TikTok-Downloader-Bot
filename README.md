@@ -1,20 +1,61 @@
+# 🎬 Vito Multi Downloader (K9K Edition)
+
+A powerful and modern **Discord bot** built with `discord.js v14` that allows users to download TikTok videos in multiple formats — including **No Watermark, HD, Watermarked, and MP3 audio** — through an interactive and clean interface.
+
 ---
 
-## 🚀 Quick Start (PC & Hosting)
+## ✨ Features
 
-### 💻 Run on Your PC
+* 🎞️ Download TikTok videos **without watermark**
+* 💎 High-quality (HD) video support
+* 🏷️ Download with watermark (original format)
+* 🎵 Extract audio (MP3)
+* ⚡ Fast API integration using TikWM
+* 🧠 Smart session handling
+* 📩 Send files via DM or log channel
+* 🎛️ Slash command system
+* 🔒 Admin-only setup commands
+* 🎨 Clean UI (Embeds, Buttons, Modals)
 
-1. Install **Node.js** (v18 or higher recommended)
-2. Download or clone this repository
-3. Open the project folder in terminal
-4. Install dependencies:
+---
+
+## 📦 Installation
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/yourusername/vito-multi-downloader.git
+cd vito-multi-downloader
+```
+
+### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-5. Open `config.json` and **paste your bot token**
-6. Start the bot:
+### 3. Configure Bot
+
+Open `config.json` and add your token:
+
+```json
+{
+  "token": "YOUR_BOT_TOKEN",
+  "fixedChannelId": "CHANNEL_ID",
+  "logsChannelId": "CHANNEL_ID",
+  "brandName": "K9K",
+  "sendToDM": false,
+  "features": {
+    "tiktok": {
+      "enabled": true
+    }
+  }
+}
+```
+
+---
+
+## 🚀 Run the Bot
 
 ```bash
 npm start
@@ -22,46 +63,54 @@ npm start
 
 ---
 
-### ☁️ Run on Hosting (VPS / Panel / Replit / etc.)
+## 💻 Run on PC
 
-1. Upload all project files to your host
-2. Open `config.json`
-3. Add your **Discord bot token**
-4. Install dependencies:
+1. Install Node.js (v18+)
+2. Download project files
+3. Open folder in terminal
+4. Run:
 
 ```bash
 npm install
+npm start
 ```
-
-5. Start the bot:
-
-```bash
-node index.js
-```
-
-> ⚠️ That’s it — just upload files, add your token, and run.
 
 ---
 
-## 🤖 How the Bot Works (From Discord)
+## ☁️ Run on Hosting (VPS / Panels / Replit / etc.)
 
-1. Use `/setup` in your server
-2. Bot will send an interface with a TikTok button
-3. Click the button → paste TikTok link
+1. Upload project files
+2. Open `config.json`
+3. Paste your **bot token**
+4. Run:
+
+```bash
+npm install
+node index.js
+```
+
+> ✔️ Just upload → add token → run
+
+---
+
+## 🤖 How to Use (Inside Discord)
+
+1. Use `/setup`
+2. Click the TikTok button
+3. Paste video link
 4. Choose format:
 
    * 🎞️ No Watermark
    * 💎 HD
-   * 🏷️ With Watermark
+   * 🏷️ Watermark
    * 🎵 MP3
-5. Bot processes and sends the file automatically
+5. Bot sends the file automatically
 
 ---
 
-## 🌐 From Idea to Expansion
+## 🌐 Expand the Bot
 
-This bot is designed to be **expandable**.
-You can easily improve it by adding support for platforms like:
+You can تطوير البوت بسهولة وإضافة منصات مثل:
 
 * ▶️ YouTube
 * 📸 Instagram
@@ -69,7 +118,7 @@ You can easily improve it by adding support for platforms like:
 * 🐦 Twitter (X)
 * 📌 Pinterest
 
-Just add new buttons + API handlers inside `/commands`.
+Just add new buttons + APIs inside `/commands`.
 
 ---
 
@@ -78,7 +127,7 @@ Just add new buttons + API handlers inside `/commands`.
 If you like this project:
 
 * ⭐ Give it a star on GitHub
-* 🛠️ Contribute by improving the code
+* 🛠️ Contribute & improve the code
 * 💡 Suggest new features
 * 🔥 Fork and build your own version
 
@@ -86,12 +135,18 @@ If you like this project:
 
 ## 📞 Technical Support & Community
 
-If you encounter bugs, need help, or want to request features:
+If you encounter bugs or need help:
 
 * **Discord Community:** https://discord.gg/wxkxHmR9GT
 * **Discord Operator:** `r.vu`
 * **Version:** Forensic Engine 2.0.26 (Secured Build)
 
 **Engine Architect:** k9k (r.vu)
+
+---
+
+## 📜 License
+
+MIT License
 
 ---
