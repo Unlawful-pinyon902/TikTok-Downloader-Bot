@@ -1,43 +1,97 @@
-# 📥 TikTok Downloader Terminal (VMD)
+---
 
-A professional-grade Discord bot designed for seamless, high-speed TikTok media retrieval. Built with a "Terminal" aesthetic, it allows users to extract content without watermarks directly into their Discord server.
+## 🚀 Quick Start (PC & Hosting)
 
-![Status](https://img.shields.io/badge/Status-Operational-0x12B5B5)
-![Platform](https://img.shields.io/badge/Platform-Discord-7289DA)
-![Node](https://img.shields.io/badge/Node.js-v16.x+-339933)
+### 💻 Run on Your PC
+
+1. Install **Node.js** (v18 or higher recommended)
+2. Download or clone this repository
+3. Open the project folder in terminal
+4. Install dependencies:
+
+```bash
+npm install
+```
+
+5. Open `config.json` and **paste your bot token**
+6. Start the bot:
+
+```bash
+npm start
+```
 
 ---
 
-## 🚀 Key Features
+### ☁️ Run on Hosting (VPS / Panel / Replit / etc.)
 
-* **Extraction Protocols**: Choose between **No Watermark**, **HD Quality**, **Watermarked**, or **MP3 Audio**.
-* **Modern Interface**: Fully interactive UI using Discord Buttons, Modals, and Professional Embeds.
-* **Secure & Ephemeral**: Processing is kept private to the user until final delivery.
-* **Multi-Guild Ready**: Independent configurations for logs and setup in every server.
-* **Advanced Stats**: Displays real-time video data (Likes, Comments, Views).
+1. Upload all project files to your host
+2. Open `config.json`
+3. Add your **Discord bot token**
+4. Install dependencies:
+
+```bash
+npm install
+```
+
+5. Start the bot:
+
+```bash
+node index.js
+```
+
+> ⚠️ That’s it — just upload files, add your token, and run.
 
 ---
 
-## ⚙️ Installation & Hosting
+## 🤖 How the Bot Works (From Discord)
 
-Follow these steps to get your own instance running on **PC** or **VPS**:
+1. Use `/setup` in your server
+2. Bot will send an interface with a TikTok button
+3. Click the button → paste TikTok link
+4. Choose format:
 
-### 1. Prerequisites
-Ensure you have [Node.js](https://nodejs.org/) (v16.11.0 or higher) installed on your system.
+   * 🎞️ No Watermark
+   * 💎 HD
+   * 🏷️ With Watermark
+   * 🎵 MP3
+5. Bot processes and sends the file automatically
 
-### 2. Setup the Project
-* **Download**: Click the green **Code** button and select **Download ZIP**, then extract it.
-* **Navigate**: Open your Terminal / Command Prompt (CMD) in the project folder.
-* **Install Dependencies**:
-    ```bash
-    npm install discord.js axios
-    ```
+---
 
-### 3. Configuration
-Open `config.json` and enter your credentials:
-```json
-{
-  "token": "YOUR_BOT_TOKEN_HERE",
-  "brandName": "K9K",
-  "features": { "tiktok": { "enabled": true } }
-}
+## 🌐 From Idea to Expansion
+
+This bot is designed to be **expandable**.
+You can easily improve it by adding support for platforms like:
+
+* ▶️ YouTube
+* 📸 Instagram
+* 👍 Facebook
+* 🐦 Twitter (X)
+* 📌 Pinterest
+
+Just add new buttons + API handlers inside `/commands`.
+
+---
+
+## ⭐ Support & Contribution
+
+If you like this project:
+
+* ⭐ Give it a star on GitHub
+* 🛠️ Contribute by improving the code
+* 💡 Suggest new features
+* 🔥 Fork and build your own version
+
+---
+
+## 📞 Technical Support & Community
+
+If you encounter bugs, need help, or want to request features:
+
+* **Discord Community:** https://discord.gg/wxkxHmR9GT
+* **Discord Operator:** `r.vu`
+* **Version:** Forensic Engine 2.0.26 (Secured Build)
+
+**Engine Architect:** k9k (r.vu)
+
+---
