@@ -81,7 +81,7 @@ node index.js
 
 Deploys the main interface:
 
-![Setup Interface]([https://postimg.cc/9wZT8Pxy](https://i.postimg.cc/sx0c2w7H/image.png)
+![Setup Interface]([https://postimg.cc/9wZT8Pxy](https://i.postimg.cc/sx0c2w7H/image.png))
 
 ---
 
@@ -108,7 +108,7 @@ Set the channel where videos will be sent.
 
 Example result:
 
-![Logs Channel Output]([https://postimg.cc/K1RTCys4](https://i.postimg.cc/K855kGP7/image.png)
+![Logs Channel Output]([https://postimg.cc/K1RTCys4](https://i.postimg.cc/K855kGP7/image.png))
 
 ---
 
